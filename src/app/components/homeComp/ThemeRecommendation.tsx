@@ -1,10 +1,22 @@
 import Image from "next/image";
 
 const themes = [
-  { title: "나를 위로하는 힐링여행", src: "/assets/images/theme1.png" },
-  { title: "마음이 행복한 예술여행", src: "/assets/images/theme2.png" },
-  { title: "맛집을 찾아요 미식 여행", src: "/assets/images/theme3.png" },
-  { title: "찾아가는 명소", src: "/assets/images/theme4.png" },
+  {
+    title: "나를 위로하는 힐링여행",
+    src: "/assets/images/theme1.png",
+    bg: "#FEEBB9",
+  },
+  {
+    title: "마음이 행복한 예술여행",
+    src: "/assets/images/theme2.png",
+    bg: "#FECDC7",
+  },
+  {
+    title: "맛집을 찾아요 미식 여행",
+    src: "/assets/images/theme3.png",
+    bg: "#E6CCEE",
+  },
+  { title: "찾아가는 명소", src: "/assets/images/theme4.png", bg: "#C8EDD3" },
 ];
 
 export default function ThemeRecommendation() {
@@ -15,7 +27,8 @@ export default function ThemeRecommendation() {
         {themes.map((theme, index) => (
           <div
             key={index}
-            className="flex-shrink-0 w-28 h-28 bg-gray-200 border"
+            // className="flex-shrink-0 w-28 h-28 bg-[#FEEBB9]"
+            className={`flex-shrink-0 w-28 h-36 bg-[${theme.bg}] rounded-lg`}
           >
             <Image
               src={theme.src}
