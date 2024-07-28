@@ -3,7 +3,6 @@ import { uploadCloudImage } from "@/app/api/uploader";
 import Image from "next/image";
 import { useState } from "react";
 
-
 const recommendedPlaces = [
   {
     id: "placeId487f",
@@ -46,7 +45,7 @@ const recommendedPlaces = [
     hashtags: ["#힐링", "#풍경", "#강원도"],
   },
   {
-    id: "placeId487f",
+    id: "placeId487fg",
     place_name: "대관령 양떼 목장",
     region: "강원도 평창",
     image: [
