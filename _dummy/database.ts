@@ -50,8 +50,8 @@ export const database = [
     place_name: "대관령 양떼 목장",
     region: "강원도 평창",
     image: [
-      "https://i.postimg.cc/hGP7FpYx/image.png",
-      "https://i.postimg.cc/Y9Nc1zpn/image.png",
+      "https://res.cloudinary.com/dnmb6kxvh/image/upload/v1722185855/igti7mox0mwyg476cgud.png",
+      "https://res.cloudinary.com/dnmb6kxvh/image/upload/v1722185871/ddpyfe7a0dkag22u0xge.png",
     ],
     description:
       "여기 우리나라 맞아? 대관령 양떼목장에 들어서면, 순간 이동을 해 스위스으 ㅣ목장 마을에 온 기분이 든다. 목가적인 서정과 이국적인 감성을 더불어 느낄 수 있다.",
@@ -70,8 +70,8 @@ export const database = [
     place_name: "안반데기",
     region: "강원도 강릉",
     image: [
-      "https://i.postimg.cc/QdbZ9bdf/image.png",
-      "https://i.postimg.cc/hPBYLdw6/image.png",
+      "https://res.cloudinary.com/dnmb6kxvh/image/upload/v1722185780/wydqutpfjsikdk6ikwxq.png",
+      "https://res.cloudinary.com/dnmb6kxvh/image/upload/v1722185793/m6kztpy63lqco1p9fpdu.png",
     ],
     description:
       "경이롭다. 입이 떡 벌어지고 감탄사가 절로 나온다. 해발 1,100m! 북한산 정상보다 더 높은 곳에 광활한 채소밭이 펼쳐져 있다. 채소밭 크기가 무려 60만 평이다.",
@@ -90,8 +90,8 @@ export const database = [
     place_name: "월정사",
     region: "강원도 평창",
     image: [
-      "https://i.postimg.cc/6p91S4dS/image.png",
-      "https://i.postimg.cc/HsLyhprz/image.png",
+      "https://res.cloudinary.com/dnmb6kxvh/image/upload/v1722185736/rlbhzqxmdgcquvbtoaua.png",
+      "https://res.cloudinary.com/dnmb6kxvh/image/upload/v1722185752/txgjoqhnvestgv5hgyb5.png",
     ],
     description:
       "전나무숲길이 아름다운 절이다. 일주문부터 금강교까지 아름드리 전나무가 숲길을 만들고 있다. 숲길에 접어드는 순간, 사람들은 누구나 행복한 고요에 젖는다",
@@ -110,8 +110,8 @@ export const database = [
     place_name: "길상사",
     region: "서울 성북구",
     image: [
-      "https://i.postimg.cc/LXRTqrNW/image.png",
-      "https://i.postimg.cc/Ssy6QcKF/image.png",
+      "https://res.cloudinary.com/dnmb6kxvh/image/upload/v1722185707/xeoxfrb3ipuvx41twixn.png",
+      "https://res.cloudinary.com/dnmb6kxvh/image/upload/v1722185721/rlpsbqoc6ppxtgq5luz7.png",
     ],
     description:
       "일주문을 지나면 공기가 확 바뀐다. 도심 사찰인데 마치 산 속에 들어와 있는 것 같다. 법정 스님과 시인 백석, 그리고 백석이 사랑한 여인 김영한을 떠올려보자.",
@@ -130,8 +130,8 @@ export const database = [
     place_name: "뮤지엄산",
     region: "강원도 원주",
     image: [
-      "https://i.postimg.cc/xjX96RMX/image.png",
-      "https://i.postimg.cc/449rKFpQ/image.png",
+      "https://res.cloudinary.com/dnmb6kxvh/image/upload/v1722185676/uednnvtsx5kvewzbvd8t.png",
+      "https://res.cloudinary.com/dnmb6kxvh/image/upload/v1722185691/fzlqwywpz799qtamxwmm.png",
     ],
     description:
       "최고 수준의 조형미를 보여주는 건축과 예술이, 원주의 골프장 옆 해발 275m 산 위에서 당신을 기다린다. 미술관을 둘러보고 나면 행복감이 부드럽게 몸을 감싼다",
@@ -150,8 +150,8 @@ export const database = [
     place_name: "하슬라아트월드",
     region: "강원도 강릉",
     image: [
-      "https://i.postimg.cc/pdjDQ8C4/image.png",
-      "https://i.postimg.cc/MZfvnxs3/image.png",
+      "https://res.cloudinary.com/dnmb6kxvh/image/upload/v1722185626/lxoalyjvfzmxwsqllcza.png",
+      "https://res.cloudinary.com/dnmb6kxvh/image/upload/v1722185641/xwpp1vz1ipc2rnse2vcg.png",
     ],
     description:
       "강릉 정동진쪽 산 위에 있다. 하슬라 아트월드로 들어서면 새로운 세계가 열리는 것 같다. 푸른 바다를 배경으로 조각공원, 미술관, 박물관이 차례로 반겨준다",

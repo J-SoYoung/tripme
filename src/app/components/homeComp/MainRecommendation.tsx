@@ -2,6 +2,7 @@
 import { uploadCloudImage } from "@/app/api/uploader";
 import Image from "next/image";
 import { useState } from "react";
+import { database } from "@_dummy/database";
 
 const recommendedPlaces = [
   {
@@ -79,7 +80,7 @@ export default function MainRecommendation() {
       {/* <input type="file" onChange={handleImageChange} /> */}
       <h2 className="text-lg font-bold mb-2">믿고 가는 추천 여행지</h2>
       <div className="flex justify-between flex-wrap">
-        {recommendedPlaces.map((place) => (
+        {database.map((place) => (
           <div key={place.id} className="w-[49%] border rounded-lg p-4 mb-2">
             <Image
               src={place.image[0]}
