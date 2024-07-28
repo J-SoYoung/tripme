@@ -1,7 +1,7 @@
-import KeywordCarousel from "../components/homeComp/KeywordCarousel";
-import MainTitle from "../components/homeComp/MainTitle";
-import ThemeRecommendation from "../components/homeComp/ThemeRecommendation";
-import MainRecommendation from "../components/homeComp/MainRecommendation";
+import KeywordCarousel from "@components/homeComp/KeywordCarousel";
+import MainTitle from "@components/homeComp/MainTitle";
+import ThemeRecommendation from "@components/homeComp/ThemeRecommendation";
+import MainRecommendation from "@components/homeComp/MainRecommendation";
 import Image from "next/image";
 
 export default function Home() {
