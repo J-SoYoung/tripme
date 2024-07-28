@@ -2,10 +2,10 @@ import { useEffect, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 
-import Home from "../../../../public/assets/icons/nav_home.svg";
-import Mypage from "../../../../public/assets/icons/nav_mypage.svg";
-import Search from "../../../../public/assets/icons/nav_search.svg";
-import Wish from "../../../../public/assets/icons/nav_wish.svg";
+import Home from "@assets/icons/nav_home.svg";
+import Mypage from "@assets/icons/nav_mypage.svg";
+import Search from "@assets/icons/nav_search.svg";
+import Wish from "@assets/icons/nav_wish.svg";
 
 export default function BottomNavBar() {
   return (

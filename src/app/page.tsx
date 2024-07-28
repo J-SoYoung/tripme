@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import Welcome from "../../public/assets/images/welcome.png";
+import Welcome from "@assets/images/welcome.png";
 
 export default function App() {
   return (
