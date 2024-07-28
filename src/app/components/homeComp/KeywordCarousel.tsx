@@ -1,4 +1,4 @@
-import { theme_keyword } from "../../../../_dummy/database";
+import { theme_keyword } from "../../constants/keywords";
 
 export default function KeywordCarousel() {
   return (
@@ -6,7 +6,7 @@ export default function KeywordCarousel() {
       {theme_keyword.map((keyword, index) => (
         <div
           key={index}
-          className="bg-gray-200 rounded-full px-4 py-2 whitespace-nowrap cursor-pointer"
+          className="bg-white rounded-full px-4 py-2 whitespace-nowrap cursor-pointer"
         >
           {keyword}
         </div>
