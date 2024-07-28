@@ -1,31 +1,3 @@
-export const theme_keyword = [
-  "regional", //지역별
-  "scenic", // 풍경
-  "spring_flower", //봄꽃 여행
-  "newtro", // 뉴트로
-  "bookstore", // 서점
-  "cafe_tour", // 카페투어
-  "healing", // 힐링
-  "art", //예술
-];
-export const main_region_keyword = [
-  "강원도 인제",
-  "강원도 강릉",
-  "경기도 파주",
-  "전남 신안",
-  "충남 보령",
-  "경기도 가평",
-  "전북 전주",
-  "경남 거제",
-  "경북 안동",
-];
-export const main_title = [
-  "이번 주말, 어디 가지?",
-  "혼자서 힐링, 어디로 가지?",
-  "오랜만에 친구랑, 어디로 가지?",
-  "가족 여행, 어디로 가지?",
-];
-
 const variable = ["입장료 없음", "7,000원 ~ 9,000원", "전용 주차장"];
 // placeId-561W
 // address랑 카카오지도랑 연동 가능한지
@@ -36,8 +8,10 @@ export const database = [
     place_name: "속삭이는 자작나무 숲",
     region: "강원도 인제",
     image: [
-      "https://i.postimg.cc/8CnTnHWZ/image.png",
-      "https://i.postimg.cc/cC0k7qH2/image.png",
+      // "https://i.postimg.cc/8CnTnHWZ/image.png",
+      // "https://i.postimg.cc/cC0k7qH2/image.png",
+      "https://res.cloudinary.com/dnmb6kxvh/image/upload/v1721923577/acuk38elplh0jg2cbv8c.png",
+      "https://res.cloudinary.com/dnmb6kxvh/image/upload/v1721923637/e9dbat9sydxririky8lv.png",
     ],
     description:
       "강원도 인제군 원대리 숲속에서 매양 당신을 기다리는 나무가 있다. 피부는 백옥 같고 키는 훤칠하다. 이 멋진 자작나무의 꽃말은 '당신을 기다립니다'이다.",
@@ -49,6 +23,7 @@ export const database = [
     options: ["입장료 없음", "전용 주차장"],
     phone: "033-463-0044",
     homepage: "",
+    hashtags: ["#힐링", "#풍경", "#강원도"],
   },
   {
     id: "placeId992f",
@@ -68,6 +43,7 @@ export const database = [
     options: ["6,000원 ~ 10,000원", "전용 주차장"],
     phone: "1544-6703",
     homepage: "https://www.morningcalm.co.kr/html/preview02.php",
+    hashtags: ["#힐링", "#풍경", "#강원도"],
   },
   {
     id: "placeId487f",
@@ -87,6 +63,7 @@ export const database = [
     options: ["7,000원 ~ 9,000원", "전용 주차장"],
     phone: "033-335-1966",
     homepage: "https://yangtte.co.kr/",
+    hashtags: ["#힐링", "#풍경", "#강원도"],
   },
   {
     id: "placeId123f",
@@ -106,6 +83,7 @@ export const database = [
     options: ["입장료 없음", "전용 주차장"],
     phone: "033-655-5119",
     homepage: "http://www.xn--ok0bo3h6vi1zj.kr/default/",
+    hashtags: ["#힐링", "#풍경", "#강원도"],
   },
   {
     id: "placeId_dnjfwjdtk",
@@ -125,6 +103,7 @@ export const database = [
     options: ["500원~5000원", "월정사 주차장"],
     phone: "033-339-6800",
     homepage: "http://www.woljeongsa.org/intro.php",
+    hashtags: ["#힐링", "#풍경", "#강원도"],
   },
   {
     id: "placeId_rlftkdtk",
@@ -144,6 +123,7 @@ export const database = [
     options: ["", ""],
     phone: "02-3672-5945",
     homepage: "http://kilsangsa.info/home/default_in.asp",
+    hashtags: ["#힐링", "#풍경", "#강원도"],
   },
   {
     id: "placeId_뮤지엄산",
@@ -163,6 +143,7 @@ export const database = [
     options: ["14,000원 ~ 40,000원", "전용 주차장", "매주 월요일 휴관"],
     phone: "0507-1430-9001",
     homepage: "https://www.museumsan.org/museumsan/#none",
+    hashtags: ["#힐링", "#풍경", "#강원도"],
   },
   {
     id: "placeId_하슬라아트월드",
@@ -182,6 +163,7 @@ export const database = [
     options: ["11,000원 ~ 15,000원", "전용 주차장"],
     phone: "033-644-9411",
     homepage: "https://www.museumhaslla.com/",
+    hashtags: ["#힐링", "#풍경", "#강원도"],
   },
 ];
 
@@ -199,4 +181,5 @@ const basic = {
   options: ["", ""],
   phone: "",
   homepage: "",
+  hashtags: ["", ""],
 };
